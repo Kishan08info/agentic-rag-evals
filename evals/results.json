@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "n_questions": 13,
+    "n_answerable": 10,
+    "n_unanswerable": 3,
+    "retrieval_hit@k": 0.9,
+    "mean_keyword_recall": 0.875,
+    "abstention_accuracy": 1.0,
+    "false_abstentions": 1,
+    "generation_mode": "extractive",
+    "note": "Heuristic metrics on a 13-question set; keyword recall is a rough proxy for answer completeness, not a faithfulness proof. Thresholds tuned on this same tiny set \u2014 treat as sanity checks."
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "question": "What does Nimbus Analytics do?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 0.75,
+      "top_source": "product-overview.md"
+    },
+    {
+      "id": "q02",
+      "question": "How much does the Growth plan cost per month?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "pricing.md"
+    },
+    {
+      "id": "q03",
+      "question": "How do I authenticate API requests?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "api-reference.md"
+    },
+    {
+      "id": "q04",
+      "question": "Is Nimbus Analytics SOC 2 compliant?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "security.md"
+    },
+    {
+      "id": "q05",
+      "question": "What is the API rate limit?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "api-reference.md"
+    },
+    {
+      "id": "q06",
+      "question": "How long is data retained on paid plans?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "security.md"
+    },
+    {
+      "id": "q07",
+      "question": "What was added in version 2.4?",
+      "abstained": true,
+      "mode": "abstained",
+      "retrieval_hit": false,
+      "keyword_recall": 0.0,
+      "top_source": null
+    },
+    {
+      "id": "q08",
+      "question": "How do I reset my password?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "faq.md"
+    },
+    {
+      "id": "q09",
+      "question": "Does Nimbus support SSO with Okta?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "security.md"
+    },
+    {
+      "id": "q10",
+      "question": "Can I export dashboard results to CSV?",
+      "abstained": false,
+      "mode": "extractive",
+      "retrieval_hit": true,
+      "keyword_recall": 1.0,
+      "top_source": "changelog.md"
+    },
+    {
+      "id": "q11",
+      "question": "Who won the 2026 FIFA World Cup?",
+      "abstained": true,
+      "mode": "abstained",
+      "abstention_correct": true
+    },
+    {
+      "id": "q12",
+      "question": "What is the CEO's home address?",
+      "abstained": true,
+      "mode": "abstained",
+      "abstention_correct": true
+    },
+    {
+      "id": "q13",
+      "question": "Explain quantum computing in detail.",
+      "abstained": true,
+      "mode": "abstained",
+      "abstention_correct": true
+    }
+  ]
+}
